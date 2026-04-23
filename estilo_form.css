@@ -1,0 +1,91 @@
+#container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #eef2f3;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+#header {
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #4CAF50;
+  margin-bottom: 25px;
+}
+
+#header h1 {
+  color: #2e7d32;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Título do formulário */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Label do formulário */
+label {
+  display: block;
+  font-weight: 600;
+  margin: 15px 0 6px;
+  color: #555;
+  text-align: center;
+  font-size: 18px;
+
+}
+
+/* Inputs do formulário */
+form input[type="text"] {
+  width: 100%;
+  max-width: 280px;
+  padding: 8px 10px;
+  margin-bottom: 12px;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  display: block;
+}
+
+/* Botão enviar */
+form input[type="submit"] {
+  margin-top: 20px;
+  background-color: #4CAF50;
+  border: none;
+  padding: 12px 25px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #388e3c;
+}
+
+/* Imagem flutuante */
+.imagefloat {
+  justify-content: center;
+  text-align: center;
+  margin: 20px 0; /* Espaço em cima e embaixo */
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 14px;
+}
+
+.imagefloat {
+    margin-right: 200px;
+    margin-left: 680px;
+}
